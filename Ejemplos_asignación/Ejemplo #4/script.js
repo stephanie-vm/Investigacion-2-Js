@@ -1,0 +1,11 @@
+let padre = document.getElementById('content');
+let parrafo = document.createElement('p');
+parrafo.innerHTML = ' Si usted desea tener éxito debe buscar nuevos caminos, en lugar de recorrer los caminos tradicionales y trillados del éxito, que todos conocen. John David Rockefeller';
+padre.appendChild(parrafo);
+let titulo = document.createElement('h1');
+titulo.innerHTML ='¿Cuál elemento es posterior a este? 😨😨';
+padre.appendChild(titulo);
+let parrafo2 = document.createElement('p');
+parrafo2.innerHTML ='Este es el elemento posterior!!';
+padre.appendChild(parrafo2);
+console.log(titulo.nextSibling);

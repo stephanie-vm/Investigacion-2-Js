@@ -1,0 +1,11 @@
+let padre = document.getElementById('content');
+let parrafo = document.createElement('p');
+parrafo.innerHTML = 'Yo soy el hijo mayor';
+padre.appendChild(parrafo);
+let titulo = document.createElement('h1');
+titulo.innerHTML ='Yo soy el hijo del medio';
+padre.appendChild(titulo);
+let parrafo2 = document.createElement('p');
+parrafo2.innerHTML ='Yo soy el comiche 😁, somos 3 hijos.';
+padre.appendChild(parrafo2);
+console.log(padre.childNodes);
